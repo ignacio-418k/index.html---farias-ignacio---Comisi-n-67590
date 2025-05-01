@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #121212;
+    padding: 30px 0;
+    text-align: center;
+    color: #1DB954;
+}
+
+header h1 {
+    font-size: 2.2rem;
+}
+
+.contenedor {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-sesion {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.texto {
+    max-width: 600px;
+}
+
+.texto h2 {
+    color: #1DB954;
+    margin-bottom: 10px;
+    font-size: 1.4rem;
+}
+
+.texto p {
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.texto ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #444;
+    line-height: 1.6;
+}
+
+.video h2 {
+    color: #1DB954;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.btn-volver {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #1DB954;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn-volver:hover {
+    background-color: #17a44b;
+}

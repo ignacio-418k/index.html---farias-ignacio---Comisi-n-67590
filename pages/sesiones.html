@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Las mejores sesiones de BZRP</title>
+    <link rel="stylesheet" href="../css/seciones.css">
+</head>
+<body>
+
+    <header>
+        <h1>Las mejores sesiones de BZRP</h1>
+
+        <div class="controls">
+            <input type="text" id="buscador" placeholder="Buscar sesión...">
+            <select id="filtro">
+                <option value="todas">Todas</option>
+                <option value="Shakira">Shakira</option>
+                <option value="Quevedo">Quevedo</option>
+                <option value="Milo J">Milo J</option>
+                <option value="Residente">Residente</option>
+                <option value="Nathy Peluso">Nathy Peluso</option>
+                <option value="Snow Tha Product">Snow Tha Product</option>
+                <option value="Trueno">Trueno</option>
+                <option value="Nicki Nicole">Nicki Nicole</option>
+            </select>
+        </div>
+
+        <div class="nav-buttons">
+            <button onclick="location.reload()">Refrescar</button>
+            <button onclick="history.back()">Atrás</button>
+            <button onclick="history.forward()">Adelante</button>
+        </div>
+    </header>
+
+    <main class="sessions-container" id="contenedor-sesiones">
+
+        <!-- SHAKIRA -->
+        <section class="session" data-artista="Shakira">
+            <a href="../pages/shakira.html">
+                <img src="../img/shakira.jpg">
+                <div class="session-info">
+                    <h2>Shakira #53</h2>
+                    <p>La tiradera más viral contra Piqué. Récord en YouTube y Spotify.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- QUEVEDO -->
+        <section class="session" data-artista="Quevedo">
+            <a href="../pages/quevedo.html">
+                <img src="../img/quevedo.jpg" alt="Quevedo BZRP">
+                <div class="session-info">
+                    <h2>Quevedo #52</h2>
+                    <p>“Quédate” fue un himno mundial que dominó todos los charts.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- MILO J -->
+        <section class="session" data-artista="Milo J">
+            <a href="../pages/milo-j.html">
+                <img src="../img/miloj.jpg">
+                <div class="session-info">
+                    <h2>Milo J #57</h2>
+                    <p>Primera sesión con formato EP. Versatilidad total del pibe.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- RESIDENTE -->
+        <section class="session" data-artista="Residente">
+            <a href="../pages/residente.html">
+                <img src="../img/residente.jpg">
+                <div class="session-info">
+                    <h2>Residente #49</h2>
+                    <p>Una guerra lírica contra J Balvin. Potente y polémica.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- NATHY PELUSO -->
+        <section class="session" data-artista="Nathy Peluso">
+            <a href="../pages/naty-peluso.html">
+                <img src="../img/natypeluso.jpg">
+                <div class="session-info">
+                    <h2>Nathy Peluso #36</h2>
+                    <p>Una bomba de energía y estilo. Frase icónica: "Tamos ready".</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- SNOW -->
+        <section class="session" data-artista="Snow Tha Product">
+            <a href="../pages/snow-tha-product.html">
+                <img src="../img/snowthaproduc.jpg">
+                <div class="session-info">
+                    <h2>Snow Tha Product #39</h2>
+                    <p>Bilingüe y agresiva. Flow técnico puro.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- TRUENO -->
+        <section class="session" data-artista="Trueno">
+            <a href="../pages/trueno.html">
+                <img src="../img/trueno.jpg" alt="Trueno BZRP">
+                <div class="session-info">
+                    <h2>Trueno #16</h2>
+                    <p>Una de las primeras explosiones del canal. Freestyle real.</p>
+                </div>
+            </a>
+        </section>
+
+        <!-- NICKI -->
+        <section class="session" data-artista="Nicki Nicole">
+            <a href="../pages/nicki.html">
+                <img src="../img/nickinicole.webp" alt="Nicki Nicole BZRP">
+                <div class="session-info">
+                    <h2>Nicki Nicole #13</h2>
+                    <p>Suave, chill y viral. Una joyita que hizo despegar a Nicki.</p>
+                </div>
+            </a>
+        </section>
+
+    </main>
+</body>
+</html>
