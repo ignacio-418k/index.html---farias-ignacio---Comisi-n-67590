@@ -1,0 +1,14 @@
+@include respond-to(mobile) {
+  .sessions-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .session {
+    width: 90%;
+
+    img {
+      height: auto;
+    }
+  }
+}

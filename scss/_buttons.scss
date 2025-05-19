@@ -1,0 +1,44 @@
+.btn-volver, .btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: $verde-spotify;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  @include transition(background-color);
+
+  &:hover {
+    background-color: $verde-hover;
+  }
+}
+
+.nav-buttons button {
+  background-color: $verde-spotify;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  margin: 5px;
+  cursor: pointer;
+  @include transition(background-color, transform, box-shadow);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  display: inline-block;
+
+  &:hover {
+    background-color: $verde-hover;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+  }
+
+  &:active {
+    background-color: $verde-active;
+    transform: translateY(1px);
+  }
+
+  &:focus {
+    outline: 2px solid $verde-spotify;
+    outline-offset: 2px;
+  }
+}
